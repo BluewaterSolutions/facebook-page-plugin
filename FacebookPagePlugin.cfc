@@ -28,8 +28,8 @@ component extends="contentbox.models.ui.BaseWidget" singleton{
     * @hideCTA.hint Hide the custom call to action button (if available)
     */
     any function renderIt(	string facebookURL="https://www.facebook.com/BluewaterBusinessSolutions/",
-    						string numeric width="340",
-    						string numeric height="500",
+    						numeric width="340",
+    						numeric height="500",
     						string tabs="timeline",
     						boolean adaptWidth=true,
     						boolean showFriendFaces=true,
