@@ -1,0 +1,37 @@
+{
+    "name":"ContentBox Facebook Embed Widget Module",
+    "version":"1.2.0",
+    "location":"bluewatersolutions/facebook-page-plugin#v1.2.0",
+    "author":"Andrew Davis",
+    "homepage":"https://github.com/bluewatersolutions/facebook-page-plugin",
+    "documentation":"https://github.com/bluewatersolutions/facebook-page-plugin",
+    "repository":{
+        "type":"git",
+        "URL":"https://github.com/bluewatersolutions/facebook-page-plugin"
+    },
+    "bugs":"https://github.com/bluewatersolutions/facebook-page-plugin/issues",
+    "slug":"facebook-page-plugin",
+    "shortDescription":"Customizable Facebook Embed Widget for Contentbox 3",
+    "instructions":"https://github.com/bluewatersolutions/facebook-page-plugin",
+    "type":"contentbox-modules",
+    "keywords":[
+        "Facebook",
+        "Widget",
+        "Embed",
+        "Timeline",
+        "Social",
+        "Social Media"
+    ],
+    "scripts":{
+        "postVersion":"package set location='bluewatersolutions/facebook-page-plugin#v`package version`'",
+        "onRelease":"publish",
+        "postPublish":"!git push origin master && !git push origin master --tags"
+    },
+    "private":false,
+    "license":[
+        {
+            "type":"MIT",
+            "URL":"https://github.com/bluewatersolutions/facebook-page-plugin/blob/master/LICENSE"
+        }
+    ]
+}
