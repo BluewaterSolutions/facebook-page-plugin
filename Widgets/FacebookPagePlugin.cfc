@@ -5,12 +5,12 @@ component extends="contentbox.models.ui.BaseWidget" singleton{
     FacebookPagePlugin function init(){
         // Widget Properties
         setName( "FacebookPagePlugin" );
-        setVersion( "1.0.6" );
+        setVersion( "1.2.6" );
         setDescription( "Generates Facebook Page Plugin" );
         setAuthor( "Bluewater Business Solutions" );
         setAuthorURL( "http://www.bluewatersolutions.com" );
         setIcon( "facebook" );
-        setCategory( "Content" );
+        setCategory( "Social Media" );
         return this;
     }
     /**
