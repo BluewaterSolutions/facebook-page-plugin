@@ -1,25 +1,14 @@
 
 # Introduction
- 
+Embed Facebook Page widget.
 
-### note ###
-The above uses our appId from Facebook, if you would like to use your own facebook app id just change it.
+## ContentBox Social Media Suite
+This ContentBox Module is part of a Social Media Suite of widgets.  Be sure to check out the following modules.
 
-##Settings##
-
-**Setting  **|**Description **|**Default **
-:-----:|:-----:|:-----:
-facebookURL|The URL of the Facebook Page|None
-width|The pixel width of the plugin. Min. is 180 & Max. is 500|340
-height|The pixel height of the plugin. Min. is 70|500
-tabs|Tabs to render i.e. timeline, events, messages. Use a comma-separated list to add multiple tabs, i.e. timeline, events.|timeline
-hideCoverPhoto|Hide cover photo in the header|false
-showFriendFaces|Show profile photos when friends like this|true
-useSmallHeader|Use the small header instead|false
-adaptWidth|Try to fit inside the container width|true
-
-
-
+* [ContentBox Facebook Embed Widget Module ](https://www.forgebox.io/view/facebook-page-plugin)
+* [ContentBox Twitter Embed Widget Module ](https://www.forgebox.io/view/cbcms-BABTwitterEmbed)
+* [ContentBox Pinterest Embed Widget Module ](https://www.forgebox.io/view/pinterest-plugin)
+* [ContentBox Vimeo Embed Widget Module ](https://www.forgebox.io/view/vimeo-plugin) 
 
 
 ```
